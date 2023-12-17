@@ -1,8 +1,12 @@
 import logo from './logo.jpg';
 import './App.css';
+import TopBar from "./view/TopBar";
 
 function App() {
   return (
+    <div>
+
+<TopBar />
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -18,6 +22,7 @@ function App() {
           详情点击
         </a>
       </header>
+    </div>
     </div>
   );
 }
