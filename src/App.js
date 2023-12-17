@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          上海镇西国际物流业务
+          上海镇西国际物流有限公司
         </p>
         <a
           className="App-link"
